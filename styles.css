@@ -7,7 +7,8 @@ html {
 body {
     font-family: 'Lucida Sans Unicode', 'Courier New', Courier, monospace;
     color: #F2DC5D;
-    min-height: 100vh;
+    background-color: #240B36;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
@@ -166,6 +167,105 @@ img.image-indent {
     align-items: center;
     background-color: #DB9065;
     color: #240B36;
-    padding: 0 12em;
-    gap: 3em;
+    padding: 4em 20em;
 }
+
+.quote, .author {
+    flex-grow: 0;
+}
+
+.quote {
+    font-size: 2em;
+    text-align: center;
+    height: 5em;
+    display: flex;
+    align-items: center;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+
+
+/**** SECTION 4  ****/
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #240B36;
+    padding: 6em 20em;
+    gap: 1em;
+}
+
+.sign-up {
+    font-size: 2em;
+    width: 100%;
+    height: auto;
+}
+
+article.sign-up {
+    text-align: right;
+}
+
+button {
+    background-color: #240B36;
+    color: #6cf25d;
+    border: 3px solid #a43040;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px #bb5a67;
+    width: 8em;
+    min-height: 4em;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 6px 6px 6px yellow;
+    cursor: pointer;
+}
+
+
+
+/**** FOOTER  ****/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #240B36;
+    padding: 2em 20em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0%;
+}
+
+
+
+/**** DISCLAIMER ****/
+
+.disclaimer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #240B36;
+}
+
+.disclaimer p.disclaimer {
+    font-size: 2em;
+    width: 50%;
+    height: auto;
+    margin: 0%;
+}
+
+a#home {
+    padding: 1.5em;
+}
+
+.disclaimer ul {
+    padding: 5em;
+    margin: 0%;
+}
+
