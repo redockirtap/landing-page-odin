@@ -36,7 +36,9 @@ a:hover {
     color: yellow;
 }
 
-
+.wrapper:hover {
+    box-shadow: 6px 6px 6px yellow !important;
+}
 
 /**** SECTION 1  ****/
 
@@ -137,7 +139,7 @@ a:hover {
     text-align: center;
 }
 
-.wrapper {
+.frogs-pack .wrapper {
     width: 200px;
     height: 200px;
     border: 3px solid #25117f;
@@ -168,6 +170,7 @@ img.image-indent {
     background-color: #DB9065;
     color: #240B36;
     padding: 4em 20em;
+    min-width: 295px;
 }
 
 .quote, .author {
@@ -215,6 +218,7 @@ button {
     background-color: #240B36;
     color: #6cf25d;
     border: 3px solid #a43040;
+    min-width: 330px;
     border-radius: 12px;
     box-shadow: 3px 3px 3px #bb5a67;
     width: 8em;
@@ -268,4 +272,6 @@ a#home {
     padding: 5em;
     margin: 0%;
 }
+
+
 
